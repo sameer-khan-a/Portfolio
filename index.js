@@ -21,15 +21,16 @@ document.querySelector('.content3').style.display = 'none';
 
 function displayHandler(container, content) {
     document.querySelector(container).addEventListener('mouseover', () => {
+        document.querySelector(container).style.transition = 'width 2s';
         document.querySelector(content).style.display = 'block';
     })
     document.querySelector(container).addEventListener('mouseout', () => {
         document.querySelector(content).style.display = 'none';
     })
 }
-displayHandler('.s1', '.content1');
-displayHandler('.s2', '.content2');
-displayHandler('.s3', '.content3');
+displayHandler('.skill1', '.content1');
+displayHandler('.skill2', '.content2');
+displayHandler('.skill3', '.content3');
 
 function hoverHandler(container) {
     document.querySelector(container).addEventListener('mouseover', () => {

@@ -44,7 +44,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,9,121,1) 24%, rgba
 }
 .skills {
     border-radius: 150px 0px 150px 0px;
-    height: 100vh;
     background-color: #FCC6FF ;
     border: #344CB7 10px solid;
     display: flex;
@@ -92,7 +91,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(13,9,121,1) 24%, rgba
     align-items: center;
     justify-content: center;
     width: 80vh;
-    height: 100vh;
 }
 .contact-title {
     word-spacing: 10px;
